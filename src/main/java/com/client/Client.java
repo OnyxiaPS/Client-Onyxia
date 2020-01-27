@@ -15340,7 +15340,7 @@ public class Client extends JPanel implements Runnable {
 	
 	        		//newBoldFont.drawString("X: " + mouseX + " Y: " + mouseY, 20, 20, 0xffff00, 0x191919, 255);
 	
-	        		welcomeText.drawAdvancedSprite(loginX + 36, loginY + 35);
+
 	        		bar.drawAdvancedTransparentSprite(loginX + 38, loginY + 69, 60);
 	        		usernameText.drawAdvancedSprite(loginX + 40, loginY + 87);
 	        		if(this.loginScreenCursorPos == 0) {
