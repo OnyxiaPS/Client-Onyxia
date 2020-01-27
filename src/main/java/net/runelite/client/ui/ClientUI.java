@@ -213,7 +213,7 @@ public class ClientUI
 			// Try to enable fullscreen on OSX
 			//OSXUtil.tryEnableFullscreen(frame);
 
-			frame.setTitle("Valius");
+			frame.setTitle("Onyxia");
 			frame.setIconImage(ImageUtil.resizeImage(ICON, 32, 32));
 			frame.getLayeredPane().setCursor(Cursor.getDefaultCursor()); // Prevent substance from using a resize cursor for pointing
 			frame.setLocationRelativeTo(frame.getOwner());
@@ -353,7 +353,7 @@ public class ClientUI
 			frame.revalidateMinimumSize();
 
 			// Create tray icon (needs to be created after frame is packed)
-			trayIcon = SwingUtil.createTrayIcon(ImageUtil.resizeImage(ICON, 16, 16), "Valius", frame);
+			trayIcon = SwingUtil.createTrayIcon(ImageUtil.resizeImage(ICON, 16, 16), "Onyxia", frame);
 
 			
 				frame.setLocationRelativeTo(frame.getOwner());

@@ -109,7 +109,7 @@ public final class ObjectDefinition {
 			break;
 		case 22472:
 			objectDef.actions = new String[] { "Daily Rewards", "Drop Tables", "Achievements", null, null };
-			objectDef.name = "Valius Database";
+			objectDef.name = "Onyxia Database";
 			break;
 			case 26811:
 				objectDef.actions = new String[] { "Open", null, null, null, null };
@@ -146,9 +146,9 @@ public final class ObjectDefinition {
 		case 31621:
 		case 33393:
 			objectDef.actions = new String[] { "Teleport", "Previous", null, null, null };
-			objectDef.name = "Valius Teleporter";
+			objectDef.name = "Onyxia Teleporter";
 			objectDef.overheadTextHeight = 450;
-			objectDef.overheadText = "Valius Teleporter";
+			objectDef.overheadText = "Onyxia Teleporter";
 			objectDef.overheadTextOpacity = 0.8f;
 			objectDef.font = Client.instance.newSmallFont;
 			objectDef.overheadColour = 0xff0000;

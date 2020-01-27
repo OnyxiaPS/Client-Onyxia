@@ -2200,7 +2200,7 @@ public final class NpcDefinition {
 		}
 		
 		if (i == 3818) {
-			entityDef.name = "Clarkeh (Valius Armor Exchange)";
+			entityDef.name = "Clarkeh (Onyxia Armor Exchange)";
 			entityDef.combatLevel = 0;
 			entityDef.models = new int[] { 60610, 60615, 60611, 13307, 29616, 53092, 60620 };
 			entityDef.standAnim = 2065;
@@ -3288,7 +3288,7 @@ public final class NpcDefinition {
 		}
 		
 		if (i == 3409) {
-			entityDef.name = "Valius Imp (Range)";
+			entityDef.name = "Onyxia Imp (Range)";
 			entityDef.combatLevel = 0;
 			entityDef.models = new int[] { 50206 };
 			entityDef.standAnim = 171;
@@ -3307,7 +3307,7 @@ public final class NpcDefinition {
 		}
 		
 		if (i == 3410) {
-			entityDef.name = "Valius Imp (Melee)";
+			entityDef.name = "Onyxia Imp (Melee)";
 			entityDef.combatLevel = 0;
 			entityDef.models = new int[] { 50206 };
 			entityDef.standAnim = 171;
@@ -3324,7 +3324,7 @@ public final class NpcDefinition {
 		}
 		
 		if (i == 3411) {
-			entityDef.name = "Valius Imp (Mage)";
+			entityDef.name = "Onyxia Imp (Mage)";
 			entityDef.combatLevel = 0;
 			entityDef.models = new int[] { 50206 };
 			entityDef.standAnim = 171;

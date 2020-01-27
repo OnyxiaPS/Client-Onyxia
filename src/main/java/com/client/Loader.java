@@ -16,7 +16,7 @@ import java.net.URLConnection;
 public final class Loader extends JFrame {
 
     private static final long serialVersionUID = 1;
-    private static final String CLIENT_URL = "http://www.valius.net/Download/ValiusClient.jar";
+    private static final String CLIENT_URL = "http://www.Onyxia.net/Download/OnyxiaClient.jar";
 
     private JLabel status;
     private JProgressBar progressBar;
@@ -78,7 +78,7 @@ public final class Loader extends JFrame {
                                     setProgress((int) ((total * 100) / fileSize));
                                 }
                             } catch (IOException e) {
-                                frame.status.setText("Error loading client...Please post a bug report at www.valius.net.");
+                                frame.status.setText("Error loading client...Please post a bug report at www.Onyxia.net.");
                                 JOptionPane.showMessageDialog(null, e.getMessage());
                             } finally {
                                 if(in != null) {
@@ -153,7 +153,7 @@ public final class Loader extends JFrame {
     /**
      */
     public Loader() {
-        setTitle("OSRS Valius");
+        setTitle("OSRS Onyxia");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setBounds(100, 100, 295, 97);
         setLocationRelativeTo(null);

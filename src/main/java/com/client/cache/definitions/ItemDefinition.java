@@ -409,7 +409,7 @@ public final class ItemDefinition {
 			model.overrideTexture(59,  62);
 			break;
 			
-		case 33558://valius cape
+		case 33558://Onyxia cape
 			model.overrideTexture(59, 63);
 			break;
 			
@@ -1643,7 +1643,7 @@ public final class ItemDefinition {
 			itemDef.femaleOffset = -7;
 			break;
 		case 33097:
-			itemDef.name = "Sword of Valius";
+			itemDef.name = "Sword of Onyxia";
 			itemDef.description = "A razor-sharp longsword.";
 			itemDef.modelId = 53091;
 			itemDef.maleModel = 53092;
@@ -1658,7 +1658,7 @@ public final class ItemDefinition {
 			itemDef.inventoryOptions[2] = null;
 			break;
 		case 33098:
-			itemDef.name = "Valius longsword";
+			itemDef.name = "Onyxia longsword";
 			itemDef.description = "A razor-sharp 2h sword.";
 			itemDef.modelId = 53093;
 			itemDef.maleModel = 53094;
@@ -5208,7 +5208,7 @@ public final class ItemDefinition {
 			break;
 
 		case 33269:
-			itemDef.name = "Valius Mystery Box";
+			itemDef.name = "Onyxia Mystery Box";
 			itemDef.inventoryOptions = new String[] { "Open", null, null, null, "Drop" };
 			itemDef.stackable = false;
 			itemDef.modelId = 2426;
@@ -8920,8 +8920,8 @@ public final class ItemDefinition {
 		switch (itemDef.id) {
 
 		case 33482:
-			itemDef.name = "Valius platebody (T2)";
-			itemDef.description = "An upgraded set of Valius armor.";
+			itemDef.name = "Onyxia platebody (T2)";
+			itemDef.description = "An upgraded set of Onyxia armor.";
 			itemDef.modelId = 60617;
 			itemDef.maleModel = 60610;
 			itemDef.femaleModel = 60616;
@@ -8936,8 +8936,8 @@ public final class ItemDefinition {
 			// itemDef.aByte205 = 3;
 			break;
 		case 33483:
-			itemDef.name = "Valius platelegs (T2)";
-			itemDef.description = "An upgraded set of Valius armor.";
+			itemDef.name = "Onyxia platelegs (T2)";
+			itemDef.description = "An upgraded set of Onyxia armor.";
 			itemDef.modelId = 60614;
 			itemDef.maleModel = 60615;
 			itemDef.femaleModel = 60615;
@@ -8952,8 +8952,8 @@ public final class ItemDefinition {
 			// itemDef.aByte205 = 3;
 			break;
 		case 33484:
-			itemDef.name = "Valius boots (T2)";
-			itemDef.description = "An upgraded set of Valius armor.";
+			itemDef.name = "Onyxia boots (T2)";
+			itemDef.description = "An upgraded set of Onyxia armor.";
 			itemDef.modelId = 60611;
 			itemDef.maleModel = 60611;
 			itemDef.femaleModel = 60611;
@@ -8968,8 +8968,8 @@ public final class ItemDefinition {
 			// itemDef.aByte205 = 3;
 			break;
 		case 33485:
-			itemDef.name = "Valius gloves (T2)";
-			itemDef.description = "An upgraded set of Valius armor.";
+			itemDef.name = "Onyxia gloves (T2)";
+			itemDef.description = "An upgraded set of Onyxia armor.";
 			itemDef.modelId = 60612;
 			itemDef.maleModel = 13307;
 			itemDef.femaleModel = 13307;
@@ -8986,8 +8986,8 @@ public final class ItemDefinition {
 			// itemDef.aByte205 = 3;
 			break;
 		case 33486:
-			itemDef.name = "Valius helmet (T1)";
-			itemDef.description = "An upgraded set of Valius armor.";
+			itemDef.name = "Onyxia helmet (T1)";
+			itemDef.description = "An upgraded set of Onyxia armor.";
 			itemDef.modelId = 60956;
 			itemDef.maleModel = 60940;
 			itemDef.femaleModel = 60946;
@@ -9004,7 +9004,7 @@ public final class ItemDefinition {
 			break;
 
 		case 33487:
-			itemDef.name = "Valius platebody (T1)";
+			itemDef.name = "Onyxia platebody (T1)";
 			itemDef.description = "You can upgrade this armor to T2 at 1500 total level.";
 			itemDef.modelId = 60957;
 			itemDef.maleModel = 60944;
@@ -9022,7 +9022,7 @@ public final class ItemDefinition {
 			// itemDef.aByte205 = 3;
 			break;
 		case 33488:
-			itemDef.name = "Valius platelegs (T1)";
+			itemDef.name = "Onyxia platelegs (T1)";
 			itemDef.description = "You can upgrade this armor to T2 at 1500 total level.";
 			itemDef.modelId = 60954;
 			itemDef.maleModel = 60942;
@@ -9038,7 +9038,7 @@ public final class ItemDefinition {
 			// itemDef.aByte205 = 3;
 			break;
 		case 33489:
-			itemDef.name = "Valius boots (T1)";
+			itemDef.name = "Onyxia boots (T1)";
 			itemDef.description = "You can upgrade this armor to T2 at 1500 total level.";
 			itemDef.modelId = 60955;
 			itemDef.maleModel = 60945;
@@ -9054,7 +9054,7 @@ public final class ItemDefinition {
 			// itemDef.aByte205 = 3;
 			break;
 		case 33490:
-			itemDef.name = "Valius gloves (T1)";
+			itemDef.name = "Onyxia gloves (T1)";
 			itemDef.description = "You can upgrade this armor to T2 at 1500 total level.";
 			itemDef.modelId = 60958;
 			itemDef.maleModel = 60941;
@@ -9071,7 +9071,7 @@ public final class ItemDefinition {
 			break;
 			
 		case 33497:
-			itemDef.name = "Valius helmet (T2)";
+			itemDef.name = "Onyxia helmet (T2)";
 			itemDef.description = "You can upgrade this armor to T2 at 1500 total level.";
 			itemDef.modelId = 60619;
 			itemDef.maleModel = 60620;
@@ -10400,8 +10400,8 @@ public final class ItemDefinition {
 					break;
 					
 				case 33558:
-					itemDef.name = "Valius cape";
-					itemDef.description = "A cape created for Valius players.";
+					itemDef.name = "Onyxia cape";
+					itemDef.description = "A cape created for Onyxia players.";
 					itemDef.modelId = 60843;
 					itemDef.maleModel = 60843;
 					itemDef.femaleModel = 60843;
@@ -15575,7 +15575,7 @@ public final class ItemDefinition {
 			break;
 			
 		case 33930:
-			itemDef.name = "Valius imp (melee)";
+			itemDef.name = "Onyxia imp (melee)";
 			itemDef.modelId = 50206;
 			itemDef.modelZoom = 2000;
 			itemDef.modelRotation1 = 0;
@@ -15589,7 +15589,7 @@ public final class ItemDefinition {
 			break;
 			
 		case 33931:
-			itemDef.name = "Valius imp (range)";
+			itemDef.name = "Onyxia imp (range)";
 			itemDef.modelId = 50206;
 			itemDef.modelZoom = 2000;
 			itemDef.modelRotation1 = 0;
@@ -15605,7 +15605,7 @@ public final class ItemDefinition {
 			break;
 			
 		case 33932:
-			itemDef.name = "Valius imp (mage)";
+			itemDef.name = "Onyxia imp (mage)";
 			itemDef.modelId = 50206;
 			itemDef.modelZoom = 2000;
 			itemDef.modelRotation1 = 0;
@@ -15945,7 +15945,7 @@ public final class ItemDefinition {
 			
 		case 33956:
 			itemDef.name = "Christmas Top";
-			itemDef.description = "A top from the 2019 Christmas event on Valius.";
+			itemDef.description = "A top from the 2019 Christmas event on Onyxia.";
 			itemDef.modelId = 50225;
 			itemDef.maleModel = 50217;
 			itemDef.femaleModel = 50218;
@@ -15961,7 +15961,7 @@ public final class ItemDefinition {
 			break;
 		case 33957:
 			itemDef.name = "Christmas legs";
-			itemDef.description = "A pair of pants from the 2019 Christmas event on Valius.";
+			itemDef.description = "A pair of pants from the 2019 Christmas event on Onyxia.";
 			itemDef.modelId = 50224;
 			itemDef.maleModel = 50216;
 			itemDef.femaleModel = 50215;
@@ -15980,7 +15980,7 @@ public final class ItemDefinition {
 
 case 33958:
 	itemDef.name = "Frosty mask";
-	itemDef.description = "A mask from the 2019 Christmas event on Valius.";
+	itemDef.description = "A mask from the 2019 Christmas event on Onyxia.";
 	itemDef.modelId = 50226;
 	itemDef.maleModel = 50222;
 	itemDef.femaleModel = 50222;
@@ -15997,7 +15997,7 @@ case 33958:
 	
 case 33959:
 	itemDef.name = "Santa's wand";
-	itemDef.description = "A wand from the 2019 Christmas event on Valius.";
+	itemDef.description = "A wand from the 2019 Christmas event on Onyxia.";
 	itemDef.modelId = 50232;
 	itemDef.maleModel = 50231;
 	itemDef.femaleModel = 50231;
@@ -16015,7 +16015,7 @@ case 33959:
 	
 case 33960:
 	itemDef.name = "Santa's rapier";
-	itemDef.description = "A rapier from the 2019 Christmas event on Valius.";
+	itemDef.description = "A rapier from the 2019 Christmas event on Onyxia.";
 	itemDef.modelId = 50230;
 	itemDef.maleModel = 50229;
 	itemDef.femaleModel = 50229;

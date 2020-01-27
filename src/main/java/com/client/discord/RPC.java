@@ -6,7 +6,7 @@ import club.minnced.discord.rpc.DiscordRichPresence;
 
 public class RPC {
     public static String FIRST_LINE = "#1 Custom OSRS Server!";
-    public static String SECOND_LINE = "www.valius.net";
+    public static String SECOND_LINE = "www.Onyxia.net";
     public static String IMAGE = "icon512";
 	private static String APPLICATION_ID = "599269980206530591";
 	public static void init() {

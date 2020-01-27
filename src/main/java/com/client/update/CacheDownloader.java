@@ -32,10 +32,10 @@ public class CacheDownloader {
 	private final int BUFFER = 8192;
 
 	private String CACHE_LINK = Configuration.CACHELINK;
-	private String BETA_CACHE_LINK = "http://beta.valius.net/cache.zip";
+	private String BETA_CACHE_LINK = "http://onyxiaps.com/cache/cache.zip";
 
-	private static String VERSION_FILE_URL = "http://server.valius.net/cache/317/version.txt";
-	private static String BETA_VERSION_FILE_URL = "http://beta.valius.net/version.txt";
+	private static String VERSION_FILE_URL = "http://onyxiaps.com/cache/version.txt";
+	private static String BETA_VERSION_FILE_URL = "http://onyxiaps.com/cache/version.txt";
 	private Path FILE_LOCATION = Paths.get(getCacheDir(), getArchivedName());
 
 	public CacheDownloader(Client client) {
@@ -132,11 +132,11 @@ public class CacheDownloader {
 				numWritten += numRead;
 
 				int percentage = (int) (((double) numWritten / (double) fileSize) * 100D);
-				drawLoadingText((int)percentage, "Valius - Downloading Cache " + percentage + "%");
+				drawLoadingText((int)percentage, "Onyxia - Downloading Cache " + percentage + "%");
 
 			}
 			System.out.println(localFileName + "\t" + numWritten);
-			drawLoadingText("Valius - Unzipping...");
+			drawLoadingText("Onyxia - Unzipping...");
 		} catch (Exception exception) {
 			exception.printStackTrace();
 		} finally {

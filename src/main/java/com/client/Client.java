@@ -4659,7 +4659,6 @@ public class Client extends JPanel implements Runnable {
 		loginBtnHover = new Sprite("login" + File.separator + "loginhover");
 		passwordText = new Sprite("login" + File.separator + "password");
 		usernameText = new Sprite("login" + File.separator + "username");
-		welcomeText = new Sprite("login" + File.separator + "welcome");
 		rememberText = new Sprite("login" + File.separator + "remember");
 		bar = new Sprite("login" + File.separator + "bar");
 
@@ -4693,9 +4692,9 @@ public class Client extends JPanel implements Runnable {
 		Raster.drawAlphaBox(x, y - 5, width, height, 0x090d1d, 170);
 		Raster.drawAlphaGradient(x, y - 5, (int) (537 * (percentage / 100.0)), height, 0x000000, 0x000000, 200);
 		
-		String loadPercent = s.isEmpty() ? "Loading Valius - Please wait - " + (percentage) + "%" : s;
+		String loadPercent = s.isEmpty() ? "Loading Onyxia - Please wait - " + (percentage) + "%" : s;
 		if (percentage >= 198) {	
-			newBoldFont.drawCenteredString("Finished loading Valius", (765 / 2), y + height / 2, 0xffffff, 1);
+			newBoldFont.drawCenteredString("Finished loading Onyxia", (765 / 2), y + height / 2, 0xffffff, 1);
 		} else {
 			if(useDefaultFont) {
 				if(loadingBuffer == null) {
@@ -4956,7 +4955,7 @@ public class Client extends JPanel implements Runnable {
 			experienceCounter = 0L;
 		}
 		if(l==852){//goon
-			launchURL("http://valius.net");
+			launchURL("http://Onyxia.net");
 		}
 		if (l == 1850) {
 			stream.createFrame(185);
@@ -9668,7 +9667,7 @@ public class Client extends JPanel implements Runnable {
 				return;
 			}
 			if (k == 6) {
-				firstLoginMessage = "Valius has been updated!";
+				firstLoginMessage = "Onyxia has been updated!";
 				secondLoginMessage = "Please restart the client.";
 				return;
 			}
@@ -9695,7 +9694,7 @@ public class Client extends JPanel implements Runnable {
 			}
 			if (k == 11) {
 
-				firstLoginMessage = "Valius is still loading! Please wait a moment before trying again.";
+				firstLoginMessage = "Onyxia is still loading! Please wait a moment before trying again.";
 				secondLoginMessage = "";
 				return;
 			}
@@ -9709,7 +9708,7 @@ public class Client extends JPanel implements Runnable {
 				return;
 			}
 			if (k == 14) {
-				firstLoginMessage = "Valius is currently being updated.";
+				firstLoginMessage = "Onyxia is currently being updated.";
 				secondLoginMessage = "Please wait one minute and try again.";
 				return;
 			}
@@ -18639,7 +18638,7 @@ public class Client extends JPanel implements Runnable {
 	private int publicChatMode;
 	private static int anInt1288;
 	public static int anInt1290;
-	public static String server = "server.valius.net";
+	public static String server = "server.Onyxia.net";
 	// public static String server = "0.0.0.0";
 	public static boolean controlIsDown;
 	public int drawCount;

@@ -12,7 +12,7 @@ public class Configuration {
 			if(modeString.equalsIgnoreCase("beta")) {
 				betaClient = true;
 				LIVE_SERVER = false;
-				IP = "beta.valius.net";
+				IP = "beta.Onyxia.net";
 			}
 		} catch(Exception ex) {
 			
@@ -52,11 +52,11 @@ public class Configuration {
 	public static int chatColor = 0;
     public static int fogColor = 0xDCDBDF;
 	public static long fogDelay = 500;
-	public static final String CLIENT_TITLE = "Valius | Your #1 Custom OSRS Experience";
-	public static final String SHORT_CLIENT_TITLE = "Valius";
+	public static final String CLIENT_TITLE = "Onyxia | Your #1 Custom OSRS Experience";
+	public static final String SHORT_CLIENT_TITLE = "Onyxia";
 	public static final int CLIENT_VERSION = 5;
-    public static Boolean LIVE_SERVER = false;
-    public static String IP = "192.99.145.49";
+    public static Boolean LIVE_SERVER = true;
+    public static String IP = "65.151.188.225";
 	public static final int PORT = 43594;
 	
 	public static final boolean THREADED_RENDERING = false;
@@ -83,9 +83,9 @@ public class Configuration {
 			repackIndexFive = false;
 			
 
-	public static final String CACHE_NAME = "ValiusCache1";
+	public static final String CACHE_NAME = "OnyxiaCache1";
 
-	public static final String CACHELINK = "http://server.valius.net/cache/317/cache.zip"; //  cache link
+	public static final String CACHELINK = "http://onyxiaps.com/cache/cache.zip"; //  cache link
 
     public static int CACHE_VERSION_LOADER = 1;
     

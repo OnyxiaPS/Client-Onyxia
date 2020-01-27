@@ -785,7 +785,7 @@ public class RSInterface {
 	public static void questTab(TextDrawingArea[] tda) {
 		RSInterface tab = addTabInterface(10220);
 		addText(10221, "@or1@Control Panel", tda, 2, 16750899, false, true);
-		addText(10222, "@or1@www.valius.net", tda, 2, 16750899, true, true);
+		addText(10222, "@or1@www.Onyxia.net", tda, 2, 16750899, true, true);
 		addSprite(10224, 0, "interfaces/infotab/sprite");
 		addButton(10403, 2, "interfaces/infotab/tab", "Refresh Tab");
 		addButton(10404, 0, "interfaces/infotab/tab", "View Diaries");
@@ -2801,7 +2801,7 @@ public class RSInterface {
 	public static void HalloweenDailyReward(TextDrawingArea[] tda) {
 		RSInterface rsI = addInterface(65000);
 		addSprite(65001, 0, "Interfaces/DailyRewards/DailyRewards");
-		addText(65002, "Valius Daily Rewards", tda, 1, 0x188EBA, true, true);
+		addText(65002, "Onyxia Daily Rewards", tda, 1, 0x188EBA, true, true);
 		addClickableText(65003, "Claim | Continue", "Claim | Continue", tda, 1, 0x188EBA, false, true, 150);
 		addText(65004, "", tda, 1, 0x188EBA, true, true);
 		addText(65005, "Make sure to log in daily!", tda, 0, 0x188EBA, true, true);
