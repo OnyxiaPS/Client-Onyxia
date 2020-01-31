@@ -11,8 +11,8 @@ public class Configuration {
 			String modeString = Manifests.read("Mode");
 			if(modeString.equalsIgnoreCase("beta")) {
 				betaClient = true;
-				LIVE_SERVER = false;
-				IP = "beta.Onyxia.net";
+				LIVE_SERVER = true;
+				IP = "65.151.188.225";
 			}
 		} catch(Exception ex) {
 			
@@ -85,7 +85,7 @@ public class Configuration {
 
 	public static final String CACHE_NAME = "OnyxiaCache1";
 
-	public static final String CACHELINK = "http://onyxiaps.com/cache/cache.zip"; //  cache link
+	public static final String CACHELINK = "http://onyxiaps.net/cache.zip"; //  cache link
 
     public static int CACHE_VERSION_LOADER = 1;
     

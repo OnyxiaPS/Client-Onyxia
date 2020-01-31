@@ -32,10 +32,10 @@ public class CacheDownloader {
 	private final int BUFFER = 8192;
 
 	private String CACHE_LINK = Configuration.CACHELINK;
-	private String BETA_CACHE_LINK = "http://onyxiaps.com/cache/cache.zip";
+	private String BETA_CACHE_LINK = "http://onyxiaps.net//cache.zip";
 
-	private static String VERSION_FILE_URL = "http://onyxiaps.com/cache/version.txt";
-	private static String BETA_VERSION_FILE_URL = "http://onyxiaps.com/cache/version.txt";
+	private static String VERSION_FILE_URL = "http://onyxiaps.net//version.txt";
+	private static String BETA_VERSION_FILE_URL = "http://onyxiaps.net//version.txt";
 	private Path FILE_LOCATION = Paths.get(getCacheDir(), getArchivedName());
 
 	public CacheDownloader(Client client) {

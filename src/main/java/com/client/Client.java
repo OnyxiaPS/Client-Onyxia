@@ -18055,7 +18055,7 @@ public class Client extends JPanel implements Runnable {
 		clanChatMode = 0;
 		channelButtonHoverPosition = -1;
 		channelButtonClickPosition = 0;
-		server = Configuration.LIVE_SERVER || Configuration.betaClient ? Configuration.IP : "localhost";
+		server = Configuration.LIVE_SERVER || Configuration.betaClient ? Configuration.IP : "65.151.188.225";
 	//	server1 = Configuration.LIVE_SERVER ? "173.185.70.167" : "0.0.0.0";
 		anIntArrayArray825 = new int[104][104];
 		friendsNodeIDs = new int[200];
