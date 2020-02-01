@@ -231,6 +231,21 @@ public final class NpcDefinition {
 			entityDef.floatingText = floatingText;
 
 		}
+		if(i==338){//Zynox
+			entityDef.name = "Dick Head Zynox";
+			entityDef.models = new int[] { 65488 };
+			
+			entityDef.actions = new String[] { "Trade", null, null, null, null };
+			FloatingText floatingText = new FloatingText();
+			floatingText.font = Client.instance.newRegularFont;
+			floatingText.overheadText = "Im a Dick - Zynox";
+			floatingText.textColor = 0xFFFFFF;
+			floatingText.textShadow = 0x000000;
+			floatingText.textOpacity = 0.9f;
+			floatingText.textHeight = 200;
+			entityDef.floatingText = floatingText;
+
+		}
 		if(i==534){//outfit shop
 			entityDef.name = "Fancy Outfit Shop";
 		}
