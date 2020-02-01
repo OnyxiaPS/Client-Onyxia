@@ -10384,7 +10384,7 @@ public class Client extends JPanel implements Runnable {
 		/**
 		 * @link addObject objectId, x, y, face, type, height
 		 */
-
+		addObject(29150, 3100, 3499, 4, 10, 0);
 		addObject(0, 1544, 3687, 0, 10, 0);
 		// Carts
 		addObject(7029, 1656, 3542, 0, 10, 0); // Hos
@@ -18055,7 +18055,7 @@ public class Client extends JPanel implements Runnable {
 		clanChatMode = 0;
 		channelButtonHoverPosition = -1;
 		channelButtonClickPosition = 0;
-		server = Configuration.LIVE_SERVER || Configuration.betaClient ? Configuration.IP : "65.151.188.225";
+		server = Configuration.LIVE_SERVER || Configuration.betaClient ? Configuration.IP : "142.4.218.221";
 	//	server1 = Configuration.LIVE_SERVER ? "173.185.70.167" : "0.0.0.0";
 		anIntArrayArray825 = new int[104][104];
 		friendsNodeIDs = new int[200];

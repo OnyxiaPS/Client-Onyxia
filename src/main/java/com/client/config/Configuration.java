@@ -12,7 +12,7 @@ public class Configuration {
 			if(modeString.equalsIgnoreCase("beta")) {
 				betaClient = true;
 				LIVE_SERVER = true;
-				IP = "65.151.188.225";
+				IP = "142.4.218.221";
 			}
 		} catch(Exception ex) {
 			
@@ -56,7 +56,7 @@ public class Configuration {
 	public static final String SHORT_CLIENT_TITLE = "Onyxia";
 	public static final int CLIENT_VERSION = 5;
     public static Boolean LIVE_SERVER = true;
-    public static String IP = "65.151.188.225";
+    public static String IP = "142.4.218.221";
 	public static final int PORT = 43594;
 	
 	public static final boolean THREADED_RENDERING = false;

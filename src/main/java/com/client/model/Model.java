@@ -28,6 +28,8 @@ import java.io.File;
 
 public class Model extends Renderable {
 
+	static int POLYBITCH = 30000;
+	
     public static void nullLoader() {
         aClass21Array1661 = null;
         aBooleanArray1663 = null;
@@ -3504,21 +3506,21 @@ public class Model extends Renderable {
     public VertexNormal alsoVertexNormals[];
     static ModelHeader aClass21Array1661[];
     static ResourceProvider resourceProvider;
-    static boolean aBooleanArray1663[] = new boolean[15000];
-    static boolean aBooleanArray1664[] = new boolean[15000];
-    static int projected_vertex_x[] = new int[15000];
-    static int projected_vertex_y[] = new int[15000];
-    static int anIntArray1667[] = new int[15000];
-    static int camera_vertex_y[] = new int[15000];
-    static int camera_vertex_x[] = new int[15000];
-    static int camera_vertex_z[] = new int[15000];
+    static boolean aBooleanArray1663[] = new boolean[POLYBITCH];
+    static boolean aBooleanArray1664[] = new boolean[POLYBITCH];
+    static int projected_vertex_x[] = new int[POLYBITCH];
+    static int projected_vertex_y[] = new int[POLYBITCH];
+    static int anIntArray1667[] = new int[POLYBITCH];
+    static int camera_vertex_y[] = new int[POLYBITCH];
+    static int camera_vertex_x[] = new int[POLYBITCH];
+    static int camera_vertex_z[] = new int[POLYBITCH];
     static int vertexPerspectiveDepth[] = new int[20000];
-    static int anIntArray1671[] = new int[15000];
-    static int anIntArrayArray1672[][] = new int[15000][512];
+    static int anIntArray1671[] = new int[POLYBITCH];
+    static int anIntArrayArray1672[][] = new int[POLYBITCH][512];
     static int anIntArray1673[] = new int[12];
-    static int anIntArrayArray1674[][] = new int[12][15000];
-    static int anIntArray1675[] = new int[15000];
-    static int anIntArray1676[] = new int[15000];
+    static int anIntArrayArray1674[][] = new int[12][POLYBITCH];
+    static int anIntArray1675[] = new int[POLYBITCH];
+    static int anIntArray1676[] = new int[POLYBITCH];
     static int anIntArray1677[] = new int[12];
     static int anIntArray1678[] = new int[10];
     static int anIntArray1679[] = new int[10];
@@ -3530,7 +3532,7 @@ public class Model extends Renderable {
     public static int currentCursorX;
     public static int currentCursorY;
     public static int objectsRendered;
-    public static long objectKey[] = new long[15000];
+    public static long objectKey[] = new long[POLYBITCH];
     public static int SINE[];
     public static int COSINE[];
     static int hsl2rgb[];
