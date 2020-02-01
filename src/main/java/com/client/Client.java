@@ -11406,7 +11406,7 @@ public class Client extends JPanel implements Runnable {
 			Rasterizer3D.setBrightness(0.80000000000000004D);
 			Rasterizer3D.method367();
 
-			// preloadModels();
+			 preloadModels();
 			// constructMusic();
 
 			// dumpModels();

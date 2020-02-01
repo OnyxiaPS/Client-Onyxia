@@ -231,7 +231,7 @@ public final class NpcDefinition {
 			entityDef.floatingText = floatingText;
 
 		}
-		if(i==338){//Zynox
+		if(i==345){//Zynox
 			entityDef.name = "Dick Head Zynox";
 			entityDef.models = new int[] { 65488 };
 			
