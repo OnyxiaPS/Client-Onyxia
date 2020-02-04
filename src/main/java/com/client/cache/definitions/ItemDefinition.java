@@ -12026,7 +12026,15 @@ public final class ItemDefinition {
 						itemDef.inventoryOptions[1] = "Wear";
 						itemDef.inventoryOptions[2] = null;
 						break;
-						
+					case 13187:
+						itemDef.name = "Condom";
+						itemDef.modelId = 2746;
+						itemDef.modelOffset1 = 3;
+						itemDef.modelOffset2 = 1;
+						itemDef.modelRotation1 = 472;
+						itemDef.modelRotationY = 156;
+						itemDef.modelZoom = 1720;
+						break;
 					case 33673:
 						itemDef.name = "Gilded Sanguinesti staff";
 						itemDef.description = "A gold trimmed Sanguinesti staff.";

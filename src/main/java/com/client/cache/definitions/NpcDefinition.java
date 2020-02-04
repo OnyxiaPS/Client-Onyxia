@@ -246,6 +246,51 @@ public final class NpcDefinition {
 			entityDef.floatingText = floatingText;
 
 		}
+		if(i==347){//Zynox
+			entityDef.name = "Candice";
+			entityDef.models = new int[] { 65491 };
+			
+			entityDef.actions = new String[] { "Buy-Blowjob", null, null, null, null };
+			FloatingText floatingText = new FloatingText();
+			floatingText.font = Client.instance.newRegularFont;
+			floatingText.overheadText = "No STDS";
+			floatingText.textColor = 0xFFFFFF;
+			floatingText.textShadow = 0x000000;
+			floatingText.textOpacity = 0.9f;
+			floatingText.textHeight = 200;
+			entityDef.floatingText = floatingText;
+
+		}
+		if(i==349){//Zynox
+			entityDef.name = "Mercedes";
+			entityDef.models = new int[] { 65492 };
+			
+			entityDef.actions = new String[] { "Buy-Blowjob", null, null, null, null };
+			FloatingText floatingText = new FloatingText();
+			floatingText.font = Client.instance.newRegularFont;
+			floatingText.overheadText = "No STDS";
+			floatingText.textColor = 0xFFFFFF;
+			floatingText.textShadow = 0x000000;
+			floatingText.textOpacity = 0.9f;
+			floatingText.textHeight = 200;
+			entityDef.floatingText = floatingText;
+
+		}
+		if(i==346){//Zynox
+			entityDef.name = "Daniele";
+			entityDef.models = new int[] { 65490 };
+			
+			entityDef.actions = new String[] { "Buy-Blowjob", null, null, null, null };
+			FloatingText floatingText = new FloatingText();
+			floatingText.font = Client.instance.newRegularFont;
+			floatingText.overheadText = "Possible STDS";
+			floatingText.textColor = 0xF51B00;
+			floatingText.textShadow = 0x000000;
+			floatingText.textOpacity = 0.9f;
+			floatingText.textHeight = 200;
+			entityDef.floatingText = floatingText;
+
+		}
 		if(i==534){//outfit shop
 			entityDef.name = "Fancy Outfit Shop";
 		}
