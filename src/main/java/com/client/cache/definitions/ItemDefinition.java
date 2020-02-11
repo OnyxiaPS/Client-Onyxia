@@ -3219,7 +3219,7 @@ public final class ItemDefinition {
 		case 33139:
 			itemDef.name = "Zamarok godbow";
 			itemDef.description = "Zamarok godbow.";
-			itemDef.modelId = 60553;
+			itemDef.modelId = 60560;//60553
 			itemDef.maleModel = 60560;
 			itemDef.femaleModel = 60560;
 			itemDef.modelZoom = 2100;
@@ -3437,6 +3437,27 @@ public final class ItemDefinition {
 			itemDef.inventoryOptions[1] = null;
 			itemDef.inventoryOptions[2] = null;
 			// itemDef.aByte205 = 3;
+			break;
+			//DOPES ITEMS NIGGAHAHAHAHAHAHAH
+		case 2749:
+			itemDef.name = "Bloody Axe";
+			itemDef.description = "Look at all that blood!";
+			itemDef.modelId = 65495;
+			itemDef.femaleModel = 65495;
+			itemDef.maleModel = 65495;
+			itemDef.inventoryOptions = new String[5];
+			itemDef.inventoryOptions[1] = "Wear";
+			itemDef.inventoryOptions[2] = null;
+			break;
+		case 2750:
+			itemDef.name = "Bloody Axe Offhand";
+			itemDef.description = "Look at all that blood!";
+			itemDef.modelId = 65496;
+			itemDef.femaleModel = 65496;
+			itemDef.maleModel = 65496;
+			itemDef.inventoryOptions = new String[5];
+			itemDef.inventoryOptions[1] = "Wear";
+			itemDef.inventoryOptions[2] = null;
 			break;
 		case 33154:
 			itemDef.name = "Infernal mystery box";
@@ -15278,6 +15299,22 @@ public final class ItemDefinition {
 			itemDef.modelOffset2 = 0;
 			itemDef.inventoryOptions = new String[5];
 			itemDef.inventoryOptions[1] = null;
+			itemDef.inventoryOptions[2] = null;
+			break;
+		case 4212:
+		case 4214:
+		case 4215:
+		case 4216:
+		case 4217:
+		case 4218:
+		case 4219:
+		case 4220:
+		case 4221:
+		case 4222:
+		case 4223:
+
+			itemDef.inventoryOptions = new String[5];
+			itemDef.inventoryOptions[1] = "Wield";
 			itemDef.inventoryOptions[2] = null;
 			break;
 			

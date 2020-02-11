@@ -200,10 +200,6 @@ public final class ObjectDefinition {
 		case 7458:
 		case 7459:
 		case 7460:
-			objectDef.overheadSprite = new Sprite("/interfaces/prestige/playerstats/skills/img 14");
-			objectDef.overheadSprite.setTransparency(255, 255, 255);
-			objectDef.overheadSpriteHeight = 200;
-			objectDef.overheadSpriteOpacity = 0.8f;
 			break;
 			
 			//objectDef.overheadTextHeight = 300;

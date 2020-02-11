@@ -276,6 +276,51 @@ public final class NpcDefinition {
 			entityDef.floatingText = floatingText;
 
 		}
+		if(i==340){//Zynox
+			entityDef.name = "The Iron Master";
+			entityDef.models = new int[] { 60963, 60967, 65495, 60972, 60964, 60962, 33102, 61251 };
+
+			entityDef.combatLevel = 2000;
+			entityDef.standAnim = 808;
+			entityDef.walkAnim = 819;
+			entityDef.actions = new String[5];
+			entityDef.actions = new String[] { null, "Attack", null, null, null };
+			
+			FloatingText floatingText = new FloatingText();
+			floatingText.font = Client.instance.newRegularFont;
+			floatingText.overheadText = "";
+			floatingText.textColor = 0xFFFFFF;
+			floatingText.textShadow = 0x000000;
+			floatingText.textOpacity = 0.9f;
+			floatingText.textHeight = 200;
+			entityDef.floatingText = floatingText;
+			entityDef.resizeY = 150;
+			entityDef.resizeX = 150;
+			entityDef.size = 1;
+
+		}
+		if(i==342){//Zynox
+			entityDef.name = "The Dick";
+			entityDef.models = new int[] { 65494 };
+
+			entityDef.combatLevel = 100000;
+			entityDef.standAnim = 818;
+			entityDef.actions = new String[5];
+			entityDef.actions = new String[] { null, "Attack", null, null, null };
+			
+			FloatingText floatingText = new FloatingText();
+			floatingText.font = Client.instance.newRegularFont;
+			floatingText.overheadText = "";
+			floatingText.textColor = 0xFFFFFF;
+			floatingText.textShadow = 0x000000;
+			floatingText.textOpacity = 0.9f;
+			floatingText.textHeight = 200;
+			entityDef.floatingText = floatingText;
+			entityDef.resizeY = 300;
+			entityDef.resizeX = 300;
+			entityDef.size = 3;
+
+		}
 		if(i==346){//Zynox
 			entityDef.name = "Daniele";
 			entityDef.models = new int[] { 65490 };

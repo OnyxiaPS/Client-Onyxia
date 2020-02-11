@@ -2,6 +2,7 @@ package com.client.graphics.loaders;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.nio.ByteBuffer;
@@ -47,7 +48,6 @@ public class ImageArchive {
 		else {
 			byte[] data = new byte[dataBuffer.limit()];
 			dataBuffer.get(data);
-			
 			byte[] decrypted = decrypt(data, encryptionKey);
 			dataBuffer = ByteBuffer.wrap(decrypted);
 			decode(dataBuffer);
