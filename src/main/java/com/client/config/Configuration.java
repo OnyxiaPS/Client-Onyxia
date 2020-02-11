@@ -76,7 +76,7 @@ public class Configuration {
 	 * Sounds/Music Index 4 = Maps You can only do up to 300 files at a time
 	 */
 	
-	public static boolean repackIndexOne = true, 
+	public static boolean repackIndexOne = false, 
 			repackIndexTwo = false, 
 			repackIndexThree = false,
 			repackIndexFour = false, 

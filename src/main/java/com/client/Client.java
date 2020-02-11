@@ -10384,7 +10384,7 @@ public class Client extends JPanel implements Runnable {
 		/**
 		 * @link addObject objectId, x, y, face, type, height
 		 */
-		addObject(29150, 3100, 3499, 4, 10, 0);
+		addObject(31858, 3101, 3506, 3, 10, 0);
 		addObject(0, 1544, 3687, 0, 10, 0);
 		// Carts
 		addObject(7029, 1656, 3542, 0, 10, 0); // Hos
