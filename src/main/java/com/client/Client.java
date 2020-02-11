@@ -32,6 +32,7 @@ import java.io.DataInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -1269,6 +1270,7 @@ public class Client extends JPanel implements Runnable {
 			if (abyte0 != null && abyte0.length > 0) {
 				stores[1].method234(abyte0.length, abyte0, ModelIndex);
 			}
+			
 		}
 	}
 
@@ -1280,6 +1282,7 @@ public class Client extends JPanel implements Runnable {
 			fis.read(aByte);
 			System.out.println("" + Index + " aByte = [" + aByte + "]!");
 			fis.close();
+			
 			return aByte;
 		} catch (Exception e) {
 			return null;
@@ -18055,7 +18058,7 @@ public class Client extends JPanel implements Runnable {
 		clanChatMode = 0;
 		channelButtonHoverPosition = -1;
 		channelButtonClickPosition = 0;
-		server = Configuration.LIVE_SERVER || Configuration.betaClient ? Configuration.IP : "142.4.218.221";
+		server = Configuration.LIVE_SERVER || Configuration.betaClient ? Configuration.IP : "127.0.0.1";
 	//	server1 = Configuration.LIVE_SERVER ? "173.185.70.167" : "0.0.0.0";
 		anIntArrayArray825 = new int[104][104];
 		friendsNodeIDs = new int[200];

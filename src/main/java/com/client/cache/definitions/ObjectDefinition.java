@@ -62,6 +62,11 @@ public final class ObjectDefinition {
 			objectDef.delaysShading = true;
 			objectDef.castsShadow = false;
 			break;
+		case 32558:
+			objectDef.name = "Dancing Pole";
+			objectDef.modelIds = new int [] {65493};
+			objectDef.actions = new String[] { "Tip Dancer 100GP", null, null, null, null };
+			break;
 		case 18532:		
 			objectDef.setDefaults();
 			objectDef.id = 18532;
@@ -80,6 +85,11 @@ public final class ObjectDefinition {
 		case 253:
 		case 9453:
 			objectDef.delaysShading = true;
+			break;
+		case 837:
+			objectDef.actions = new String[] { "Buy-Comdom", null, null, null, null };
+			objectDef.name = "Durex Machine";
+			objectDef.modelIds = new int [] {65489};
 			break;
 		case 11869:
 			objectDef.actions = new String[] { "Pick-up", null, null, null, null };
@@ -190,10 +200,6 @@ public final class ObjectDefinition {
 		case 7458:
 		case 7459:
 		case 7460:
-			objectDef.overheadSprite = new Sprite("/interfaces/prestige/playerstats/skills/img 14");
-			objectDef.overheadSprite.setTransparency(255, 255, 255);
-			objectDef.overheadSpriteHeight = 200;
-			objectDef.overheadSpriteOpacity = 0.8f;
 			break;
 			
 			//objectDef.overheadTextHeight = 300;

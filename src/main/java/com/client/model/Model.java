@@ -18,6 +18,9 @@ import com.google.common.io.Files;
 
 import java.io.DataInputStream;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -573,6 +576,16 @@ public class Model extends Renderable {
             return;
         }
         byte[] data = aClass21Array1661[model].aByteArray368;
+
+    	String path = "I:/Valius Models/"+model+".dat";
+	try(FileOutputStream fileOutputStream = new FileOutputStream(path)) {
+        fileOutputStream.write(data);
+    } catch (FileNotFoundException e) {
+		e.printStackTrace();
+	} catch (IOException e) {
+		e.printStackTrace();
+	}
+        
         //data = read(signlink.findcachedir() + "/Raw/" + model + ".dat");
         if (data[data.length - 1] == -1 && data[data.length - 2] == -1) {
             read622Model(data, model);
